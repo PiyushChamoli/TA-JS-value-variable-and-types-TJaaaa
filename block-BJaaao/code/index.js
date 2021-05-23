@@ -32,6 +32,19 @@ let num2 = 32;
     Adult: [isAdult]
     Profession: [userProfession]` (it should be in three different lines)
 */
+let userName = prompt(`Enter Your Name:`);
+let userProfession = prompt(`Enter Your Profession:`);
+let isAdult = confirm(`Are You An Adult?`);
+alert(`I am ${userName} a ${userProfession}`);
+console.log(`I am ${userName} a ${userProfession}`);
+alert(`Username: ${userName}
+Adult: ${isAdult}
+Profession: ${userProfession}
+`);
+console.log(`Username: ${userName}
+Adult: ${isAdult}
+Profession: ${userProfession}
+`)
 
 /*
 . Addition using prompt
@@ -43,3 +56,10 @@ let num2 = 32;
   - Log using console.log [numA - numB]
   - Log using console.log [numA * numB]
 */
+
+let numA = Number(prompt(`Enter a number:`));
+let numB = Number(prompt(`Enter second number:`));
+alert(numA - numB);
+alert(numA * numB);
+console.log(numA - numB);
+console.log(numA * numB);
