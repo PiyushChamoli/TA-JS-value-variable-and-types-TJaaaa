@@ -14,14 +14,15 @@ firstName = "John";
 // Assign a new value of `"Snow"` to lastName.
 lastName="Snow";
 // Alert the new value of `firstName` and `lastName` by concatenating them
-alert(firstName + " " + lastName);
+alert(firstName + lastName);
 // Create a new varaible using `const` named `fullName` and assign the fullname using firstName and lastName seperated by space.
 const fullName= firstName + " " + lastName;
 // Declare three variables `name,` `newUser` and `isAdmin`.
-let name;
+let name, newUser, isAdmin;
 // Assign your name as the value of `name`.
 
 // Assign the value of `name` to `newUser`.
+
 // Set the value of `isAdmin` to `true`.
 // Alert the values of all the three variables.
 
