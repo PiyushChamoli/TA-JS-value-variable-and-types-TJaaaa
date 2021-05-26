@@ -15,4 +15,9 @@ var bank_balance = 303.91;
 var amount = 0;
 // your code goes here
 
+while (amount<bank_balance) {
+    amount += PHONE_PRICE;
+    while (amount)
+}
+
 // ⛑ Answer of the above will `$334.76`.
