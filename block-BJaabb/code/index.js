@@ -6,6 +6,15 @@
 4. Now change the value of `user` to `John` and log the value of both `user` and `userName`.
 */
 
+let user = prompt("Enter your name: ");
+alert(`The name of user is ${user}`);
+let userName = user;
+console.log(`User is ${user} and userName is ${userName}`);
+let age = 22,
+  isLearning = true;
+user = "John";
+console.log(`User is ${user} and userName is ${userName}`);
+
 /* 2.
 Use `prompt` to take two numbers from user and store it in variable `numA` and `numB`. Create a third variable called `sum`, using `+` operator add numA and numB , store it in varible `sum` and using alert display `sum` in browser.
 */
