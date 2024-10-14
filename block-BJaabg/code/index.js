@@ -15,22 +15,34 @@ var bank_balance = 303.91;
 var amount = 0;
 // your code goes here
 
-while (amount<bank_balance) {
-    amount += PHONE_PRICE;
-    if (amount<SPENDING_THRESHOLD) {
-        amount += ACCESSORY_PRICE;
-    }
+while (amount < bank_balance) {
+  amount += PHONE_PRICE;
+  if (amount < SPENDING_THRESHOLD) {
+    amount += ACCESSORY_PRICE;
+  }
 }
 
-let tax = amount*TAX_RATE;
-let taxedAmount = amount+tax;
+let tax = amount * TAX_RATE;
+let taxedAmount = amount + tax;
 
-console.log("$",taxedAmount);
+console.log(taxedAmount);
 
-if (taxedAmount<bank_balance) {
-    alert(`You can afford it and total price is ${taxedAmount}`);
+// while (amount<bank_balance) {
+//     amount += PHONE_PRICE;
+//     if (amount<SPENDING_THRESHOLD) {
+//         amount += ACCESSORY_PRICE;
+//     }
+// }
+
+// let tax = amount*TAX_RATE;
+// let taxedAmount = amount+tax;
+
+// console.log("$",taxedAmount);
+
+if (taxedAmount < bank_balance) {
+  alert(`You can afford it and total price is ${taxedAmount}`);
 } else {
-    alert(`You cannot afford it because total amount is ${taxedAmount}`);
+  alert(`You cannot afford it because total amount is ${taxedAmount}`);
 }
 
 // ⛑ Answer of the above will `$334.76`.
